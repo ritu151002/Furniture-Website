@@ -1,0 +1,214 @@
+/* App.css */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+  z-index: 100;
+  background-color: black;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.my-nav-item {
+  color: #ffffff !important;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.custom-carousel {
+  height: 50vh; 
+  width: 100%; 
+}
+
+.custom-carousel .carousel-item img {
+  height: 50vh;
+  width: 100%; 
+  object-fit: cover; 
+}
+
+.BackGround-img {
+  height: 90vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 30%; /* Adjust as needed to position vertically */
+  right: 10%; /* Adjust as needed to position horizontally */
+  text-align: right;
+  color: white; /* You can change the color as needed */
+ /* background-color: rgba(0, 0, 0, 0.5);  */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.heading-1 {
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.heading-2 {
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.no-underline {
+  text-decoration: none !important; /* Remove underline */
+}
+
+.no-scrollbar {
+  overflow-x: scroll;
+  scrollbar-width: none; /* For Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}
+
+.content {
+  margin-bottom: 2rem;
+  min-height: calc(100vh - 100px);
+}
+
+
+.btn-black-body {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid black !important;
+}
+
+.btn-black-body:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black !important;
+}
+
+.btn-black {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black !important;
+}
+
+.btn-black:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.navbar-toggler {
+  border-color: white !important; /* Change the border color of the toggler button */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/* Social Icons */
+footer .fa {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+footer .fa:hover {
+  color: #f39c12; /* Hover effect color */
+}
+
+/* Contact Card Styling */
+.contact-card {
+  background-color: #2a2a2a;
+  color: #d3d3d3;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contact-card .fa {
+  margin-right: 10px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;  
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+} 
+
+.card-body {
+  display: flex;
+  flex-direction: column; 
+}
+
+
+
+
+.furniture-product-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.product-images {
+  flex: 1;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+.thumbnail-gallery {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.img-thumbnail {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.color-options, .size-options {
+  display: flex;
+  gap: 10px;
+}
+
+.color-option, .size-option {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.color-option.active, .size-option.active {
+  border-color: #000;
+  font-weight: bold;
+}
